@@ -1,0 +1,70 @@
+/* Basic styling for the stopwatch */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(1, 1, 45);
+}
+
+.container {
+  background: #fff;
+  padding: 20px 40px;
+  border-radius: 155px 10px 25px 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+.display {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.controls button:first-of-type{
+  background-color: #4caf50;
+  color: white;
+}
+
+.controls button:first-of-type:hover{
+  background-color: #45a049;
+}
+
+.controls button:nth-child(2) {
+  background-color: #2196f3;
+  color: #fff;
+}
+.controls button:nth-child(2):hover {
+  background-color: #1e88e5;
+  
+}
+
+.controls button:last-child {
+  background: red;
+  color: #fff;
+}
+
+.controls button:last-child:hover {
+background: #960d0d;
+}
